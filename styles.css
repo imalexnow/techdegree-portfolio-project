@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/cover.jpg') no-repeat top center ;
+  background: url('images/cover.jpg') no-repeat bottom center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,6 +66,11 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
+  background-image: url("images/me.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position-x: center;
   margin-top: 50px;
   width: 150px;
   height: 150px;
