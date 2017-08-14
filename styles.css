@@ -74,7 +74,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -91,7 +91,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #F3F3F0;
 }
 .card {
   margin: 30px;
@@ -107,6 +107,19 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card-experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-experience:hover {
+  border-color: #A3FF99;
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -171,6 +184,11 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.centered {
+  text-align: center;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
